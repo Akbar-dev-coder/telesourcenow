@@ -164,7 +164,7 @@ const Navbar = () => {
                           <Link href="/our-culture">Our Culture</Link>
                         </li>
                         <li>
-                          <Link href="/">Our Team</Link>
+                          <Link href="/our-team">Our Team</Link>
                         </li>
                         <li>
                           <Link href="/">Social Responsibility</Link>

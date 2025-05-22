@@ -167,13 +167,15 @@ const Navbar = () => {
                           <Link href="/our-team">Our Team</Link>
                         </li>
                         <li>
-                          <Link href="/">Social Responsibility</Link>
+                          <Link href="/social-responsibility">
+                            Social Responsibility
+                          </Link>
                         </li>
                         <li>
                           <Link href="/">Press Page</Link>
                         </li>
                         <li>
-                          <Link href="/">Contact Us </Link>
+                          <Link href="/contactus">Contact Us </Link>
                         </li>
                       </ul>
                     </ListItem>

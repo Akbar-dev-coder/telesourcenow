@@ -363,3 +363,61 @@ img {
     rgba(225, 136, 128, 1) 100%
   );
 }
+
+.mot-page {
+  background: linear-gradient(45deg, #c43538, #edeced);
+}
+.social-banner {
+  background-image: url("../public/social-intro.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.initiative-section {
+  position: sticky;
+  top: 90px;
+}
+
+.eco-img {
+  position: sticky;
+  top: 90px;
+}
+
+.bg-eco-content {
+  background-image: url("../public/eco-img-2.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ukrain {
+  height: 300px;
+  background-image: url("../public/sup-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.overlay {
+  height: 300px;
+  background-color: rgba(228, 220, 220, 0.5);
+}
+.result {
+  height: 300px;
+  background-image: url("../public/sup-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.team {
+  height: 300px;
+  background-image: url("../public/sup-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mtt-bg {
+  background: linear-gradient(45deg, #3582ba, #edeced);
+}

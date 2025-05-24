@@ -123,14 +123,14 @@ const Navbar = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/" passHref>
+                <Link href="/our-packages" passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Our Packages
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/" passHref>
+                <Link href="/career" passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Career
                   </NavigationMenuLink>

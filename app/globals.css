@@ -421,3 +421,24 @@ img {
 .mtt-bg {
   background: linear-gradient(45deg, #3582ba, #edeced);
 }
+
+.career-video {
+  height: 600px;
+  background-image: url("../public/video-preview-boy.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.play-video-btn {
+  background-image: url("../public/play-icon.svg");
+  background-color: red;
+  background-position: right center;
+  background-size: 40px 20px;
+  color: white;
+  border-radius: 100px;
+  padding: 11px 42px 8px 17px;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 40px rgba(255, 0, 0, 0.5);
+  font-size: 17px;
+}

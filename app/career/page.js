@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import Marquee from "react-fast-marquee";
 const page = () => {
   return (
     <>
@@ -14,7 +14,7 @@ const page = () => {
           </div>
           <div className="text-center pt-3">
             <Button>
-              <Link href="/">Check Our Vacancies</Link>
+              <Link href="/telesource">Check Our Vacancies</Link>
             </Button>
           </div>
         </div>
@@ -117,7 +117,29 @@ const page = () => {
           </p>
         </div>
       </div>
-      {/* <div className="carousel"></div> */}
+      <div className="m-3 bg-[#EEECED]">
+        <Marquee direction="right" speed={100}>
+          <div className="flex items-center justify-center space-x-20 py-10">
+            <Image src="/1.svg" width={150} height={100} alt="1" />
+            <Image src="/2.svg" width={150} height={100} alt="2" />
+            <Image src="/3.svg" width={150} height={100} alt="3" />
+            <Image src="/4.svg" width={150} height={100} alt="4" />
+            <Image src="/5.svg" width={150} height={100} alt="5" />
+            <Image src="/6.svg" width={150} height={100} alt="6" />
+            <Image src="/7.svg" width={150} height={100} alt="7" />
+            <Image src="/8.svg" width={150} height={100} alt="8" />
+            <Image src="/9.svg" width={150} height={100} alt="9" />
+            <Image src="/10.svg" width={150} height={100} alt="10" />
+            <Image src="/11.svg" width={150} height={100} alt="11" />
+            <Image src="/12.svg" width={150} height={100} alt="12" />
+            <Image src="/13.svg" width={150} height={100} alt="13" />
+            <Image src="/15.svg" width={150} height={100} alt="15" />
+            <Image src="/16.svg" width={150} height={100} alt="16" />
+            <Image src="/17.svg" width={150} height={100} alt="17" />
+            <Image src="/18.svg" width={150} height={100} alt="18" />
+          </div>
+        </Marquee>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2.5 m-3">
         <div className="w-full h-full">
           <Image src="/award-1.jpg" width={500} height={0} alt="award-1" />
@@ -281,7 +303,22 @@ const page = () => {
           </ul>
         </div>
         <div className="w-full flex flex-1/2">
-          <Image src="/chill-man.png" width={600} height={0} alt="chill" />
+          <Image src="/chill-man.png" width={800} height={0} alt="chill" />
+        </div>
+      </div>
+      <div className="join-us m-3">
+        <div className="max-w-[1000px] mx-auto py-24 space-y-10">
+          <h1 className="sm:text-5xl text-2xl  text-center">
+            You will contribute to big companies like
+          </h1>
+          <div className="flex flex-wrap justify-center items-center gap-5">
+            <Image src="/macpaw-logo.svg" width={200} height={0} alt="mac" />
+            <Image src="/calm-logo.svg" width={100} height={0} alt="mac" />
+            <Image src="/glovo-logo.svg" width={150} height={0} alt="mac" />
+          </div>
+          <Button className="text-center mx-auto block">
+            <Link href="/telesource">I want to join</Link>
+          </Button>
         </div>
       </div>
     </>

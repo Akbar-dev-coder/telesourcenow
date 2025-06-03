@@ -11,6 +11,7 @@ import { FaTiktok } from "react-icons/fa6";
 import { VscSend } from "react-icons/vsc";
 import { IoBagAddOutline } from "react-icons/io5";
 import { TfiLocationPin } from "react-icons/tfi";
+import ChatBot from "./ChatBot";
 const Footer = () => {
   return (
     <div className="footer md:mx-3">
@@ -210,6 +211,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <ChatBot />
     </div>
   );
 };

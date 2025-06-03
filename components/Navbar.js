@@ -22,12 +22,12 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full px-4 py-3 shadow-md bg-white dark:bg-gray-900 sticky top-0 z-50">
+    <nav className="w-full px-4 py-3 shadow-md bg-white dark:bg-gray-900 sticky top-0 z-50 ">
       <div className=" mx-auto flex items-center justify-between">
         <Link href="/">
           <Image src="/logo.png" width={220} height={60} alt="Logo" />
         </Link>
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-6 z-50">
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -183,7 +183,7 @@ const Navbar = () => {
                 </NavigationMenuContent>
               </NavigationMenuItem>
               <NavigationMenuItem>
-                <Link href="/" passHref>
+                <Link href="/blog" passHref>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Blog
                   </NavigationMenuLink>

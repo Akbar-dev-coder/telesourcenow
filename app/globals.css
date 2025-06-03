@@ -442,3 +442,19 @@ img {
   box-shadow: 0 10px 40px rgba(255, 0, 0, 0.5);
   font-size: 17px;
 }
+.spt {
+  background: linear-gradient(
+      79.99deg,
+      #f0eef1 5.45%,
+      #e8e2eb 18.73%,
+      #ce89ed 161.66%
+    ),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+
+.join-us {
+  background: linear-gradient(45deg, #6dae39, #edeced);
+}
+html {
+  scroll-behavior: smooth;
+}
